@@ -7,7 +7,9 @@ namespace D5BasicPrograms
         static void Main(string[] args)
         {
             Console.WriteLine("Basic core C# progrms");
-            FlipCoin.checkFlipCoin();
+            //FlipCoin.checkFlipCoin();
+            LeapYear.calLeapYear();
+            Console.ReadKey();
         }
     }
 }
