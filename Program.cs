@@ -12,7 +12,8 @@ namespace D5BasicPrograms
             //PowerOfTwo.powerOfTwo();
             //CalHarmonicNum.harmonicNum();
             //Factors.calFactors();
-            QuestAndRem.calQuestAndRem();
+            //QuestAndRem.calQuestAndRem();
+            SwapNumbers.swappingNumbers();
             Console.ReadKey();
 
 
