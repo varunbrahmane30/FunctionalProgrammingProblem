@@ -14,7 +14,8 @@ namespace D5BasicPrograms
             //Factors.calFactors();
             //QuestAndRem.calQuestAndRem();
             //SwapNumbers.swappingNumbers();
-            EvenOdd.calEvenOdd();
+            //EvenOdd.calEvenOdd();
+            VowelOrConst.checkVowelOrConst();
             Console.ReadKey();
 
 
