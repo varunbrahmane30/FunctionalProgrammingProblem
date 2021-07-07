@@ -13,7 +13,8 @@ namespace D5BasicPrograms
             //CalHarmonicNum.harmonicNum();
             //Factors.calFactors();
             //QuestAndRem.calQuestAndRem();
-            SwapNumbers.swappingNumbers();
+            //SwapNumbers.swappingNumbers();
+            EvenOdd.calEvenOdd();
             Console.ReadKey();
 
 
