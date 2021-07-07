@@ -11,8 +11,10 @@ namespace D5BasicPrograms
             //LeapYear.calLeapYear();
             //PowerOfTwo.powerOfTwo();
             //CalHarmonicNum.harmonicNum();
-            Factors.calFactors();
+            //Factors.calFactors();
+            QuestAndRem.calQuestAndRem();
             Console.ReadKey();
+
 
         }
     }
