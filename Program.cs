@@ -10,8 +10,10 @@ namespace D5BasicPrograms
             //FlipCoin.checkFlipCoin();
             //LeapYear.calLeapYear();
             //PowerOfTwo.powerOfTwo();
-            CalHarmonicNum.harmonicNum();
+            //CalHarmonicNum.harmonicNum();
+            Factors.calFactors();
             Console.ReadKey();
+
         }
     }
 }
