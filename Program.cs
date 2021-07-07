@@ -8,7 +8,8 @@ namespace D5BasicPrograms
         {
             Console.WriteLine("Basic core C# progrms");
             //FlipCoin.checkFlipCoin();
-            LeapYear.calLeapYear();
+            //LeapYear.calLeapYear();
+            PowerOfTwo.powerOfTwo();
             Console.ReadKey();
         }
     }
