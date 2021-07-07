@@ -15,7 +15,8 @@ namespace D5BasicPrograms
             //QuestAndRem.calQuestAndRem();
             //SwapNumbers.swappingNumbers();
             //EvenOdd.calEvenOdd();
-            VowelOrConst.checkVowelOrConst();
+            //VowelOrConst.checkVowelOrConst();
+            LargestNum.checkLargestAmongThree();
             Console.ReadKey();
 
 
