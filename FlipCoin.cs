@@ -8,32 +8,57 @@ namespace D5BasicPrograms
     {
         public static void checkFlipCoin()
         {
-            // generating random 
-            Random random =new Random();
-            int value = random.Next(0,2);
 
             //variables declaration
-            int percentageTail = 0;
-            int percentageHead = 0;
+            int tail = 0;
+            int head = 0;
+            int flip;
+            int totalIteration = 0;
 
-            
+            // Taking User Input
+
+            Console.WriteLine("Enter how many times you want to Flip a Coin : ");
+            flip = int.Parse(Console.ReadLine());
+
+
             // implementation 
-            if( value < 0.5)
-            {
-               // Console.WriteLine("Tails");
-                percentageTail++;
+
+                while (totalIteration <= flip)
+                {
+                    totalIteration++;
+
+
+                // generating random 
+
+                Random random = new Random();
+                int value = random.Next(0, 2);
+
+                // implementation 
+                if (value < 0.5)
+                {
+                     Console.WriteLine("Tails");
+                    tail++;
+                }
+                else
+                {
+                     Console.WriteLine("Heads");
+                    head++;
+                }
+
+
             }
-            else
-            {
-               // Console.WriteLine("Heads");
-                percentageHead++;
-            }
 
-            // result display on console 
-            Console.WriteLine("Percentage of head is : " + percentageHead);
-            Console.WriteLine("Percentage of Tail is : " + percentageTail);
+            Console.WriteLine(head);
+            Console.WriteLine(tail);
 
 
+            // result display on console
+                
+            double headPerResult = head * 100 / flip;
+            Console.WriteLine("Percentage of head is : " + headPerResult);
+
+            double tailPerResult = tail * 100 / flip;
+            Console.WriteLine("Percentage of Tail is : " + tailPerResult);
 
         }
     }
